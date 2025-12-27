@@ -6,13 +6,13 @@ This project implements an interactive AI-powered learning mentor that allows us
 
 The goal of this project was not just to build a chatbot — but to understand how real-world LLM-driven learning systems are designed, including:
 
-context-aware conversation memory
+- context-aware conversation memory
 
-prompt-based domain control
+- prompt-based domain control
 
-module-wise workflows
+- module-wise workflows
 
-multi-model integration using LangChain
+- multi-model integration using LangChain
 
 This project helped me deeply understand the complete workflow of building an AI mentor system — from UI interactions and session state handling to LLM chaining, prompt engineering, and response filtering.
 
