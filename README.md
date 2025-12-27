@@ -53,19 +53,19 @@ The UI switches into a dedicated module chat interface.
 
 A custom memory class stores:
 
-user queries
+- user queries
 
-AI responses
+- AI responses
 
-session-wise history
+- session-wise history
 
 The memory is:
 
-persisted inside Streamlit session state
+- persisted inside Streamlit session state
 
-passed to the LLM as conversational context
+- passed to the LLM as conversational context
 
-reset when switching modules
+- reset when switching modules
 
 This helped me understand how memory systems work in LLM apps.
 
@@ -73,15 +73,15 @@ This helped me understand how memory systems work in LLM apps.
 
 Multiple models are used depending on the module:
 
-Gemini 2.5 Flash — Python / ML / DL topics
+- Gemini 2.5 Flash — Python / ML / DL topics
 
-Hugging Face Endpoints — SQL / GenAI / EDA / Power BI / Agentic AI
+- Hugging Face Endpoints — SQL / GenAI / EDA / Power BI / Agentic AI
 
 Models are wrapped using:
 
-HuggingFaceEndpoint
+- HuggingFaceEndpoint
 
-ChatHuggingFace
+- ChatHuggingFace
 
 This allowed me to explore:
 
@@ -94,11 +94,11 @@ This allowed me to explore:
 
 Instead of keyword filtering, the system uses instruction-based soft constraints, meaning:
 
-relevant cross-domain topics are allowed
+- relevant cross-domain topics are allowed
 
-unrelated questions are politely declined
+- unrelated questions are politely declined
 
-responses remain educational and concise
+- responses remain educational and concise
 
 This helped me understand how prompt discipline improves reliability compared to hard-rule text filters.
 
@@ -106,13 +106,13 @@ This helped me understand how prompt discipline improves reliability compared to
 
 The UI includes:
 
-chat-style message bubbles with user & assistant roles
+- chat-style message bubbles with user & assistant roles
 
-persistent chat history display
+- persistent chat history display
 
-downloadable conversation logs
+- downloadable conversation logs
 
-session end & module reset options
+- session end & module reset options
 
 The goal was to create a mentor-like interaction experience rather than a plain text chatbot.
 
@@ -128,13 +128,13 @@ Module Selection
 
 Key components include:
 
-CustomConversationMemory
+- CustomConversationMemory
 
-LangChain chaining pipeline
+- LangChain chaining pipeline
 
-Structured prompt templates
+- Structured prompt templates
 
-Session-based UI state management
+- Session-based UI state management
 
 This project strengthened my understanding of:
 
@@ -178,6 +178,6 @@ If you’d like to review the project, suggest improvements, or collaborate — 
 
 📧 Email — rohithmasineni223@email.com
 
-🔗 LinkedIn — Rohith Kumar Masineni
+🔗 LinkedIn — [**Rohith Kumar Masineni**](https://www.linkedin.com/in/rohith-kumar-masineni/)
 
 ⭐ If you find this project useful, feel free to star the repository!
