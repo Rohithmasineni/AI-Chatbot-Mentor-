@@ -18,7 +18,7 @@ This project helped me deeply understand the complete workflow of building an AI
 
 The intention of the project was learning-oriented design & implementation rather than building a fully autonomous assistant, and it successfully served that purpose.
 
-### Project Overview
+## Project Overview
 
 The idea is simple:
 
@@ -52,7 +52,7 @@ User chooses a learning domain such as:
 
 The UI switches into a dedicated module chat interface.
 
-### 🧵 Conversation Memory
+### Conversation Memory
 
 A custom memory class stores:
 
@@ -124,7 +124,7 @@ The goal was to create a mentor-like interaction experience rather than a plain 
 
 ### 🧠 Model Logic & Architecture
 
-The application follows:
+**The application follows:**
 
 Module Selection
 → Context-aware prompt
@@ -175,15 +175,6 @@ Although the project is still evolving, it helped me:
 ✔ Design a clean, learner-focused chatbot interface
 
 This serves as a strong foundation for future AI mentor & tutoring systems.
-
-### 🚀 Future Enhancements
-
-- Some upcoming improvements I plan to explore:
-- Knowledge-grounded answers using vector DBs
-- User learning progress tracking
-- Topic-wise quizzes & explanations
-- Adaptive hints and follow-up guidance
-- Fine-tuned domain mentor models
 
 ### 📬 Contact
 
