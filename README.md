@@ -27,8 +27,11 @@ Select a learning module → Ask questions → Receive responses only within tha
 Instead of responding like a generic chatbot, the system:
 
 ✔ restricts responses to the selected subject
+
 ✔ uses structured prompts to maintain topic boundaries
+
 ✔ leverages conversation memory for continuity
+
 ✔ supports multiple LLM models based on module type
 
 To achieve this, I implemented the workflow manually using LangChain, rather than relying on pre-built chatbot wrappers — which helped me understand the underlying mechanics more clearly.
@@ -86,8 +89,11 @@ Models are wrapped using:
 This allowed me to explore:
 
 ✔ model routing
+
 ✔ endpoint execution
+
 ✔ performance differences
+
 ✔ domain-specific response behavior
 
 ### 🧾 Prompt Engineering
@@ -139,8 +145,11 @@ Key components include:
 This project strengthened my understanding of:
 
 ✔ LangChain Runnable pipelines
+
 ✔ Memory-driven conversation flows
+
 ✔ Multi-model orchestration
+
 ✔ UX design for AI systems
 
 ### 🧰 Tech Stack
@@ -156,9 +165,13 @@ This project strengthened my understanding of:
 Although the project is still evolving, it helped me:
 
 ✔ Build a structured LLM application end-to-end
+
 ✔ Understand conversation memory design
+
 ✔ Implement multi-module learning workflows
+
 ✔ Improve prompt alignment & response control
+
 ✔ Design a clean, learner-focused chatbot interface
 
 This serves as a strong foundation for future AI mentor & tutoring systems.
